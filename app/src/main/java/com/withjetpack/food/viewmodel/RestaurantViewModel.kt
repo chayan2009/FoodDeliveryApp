@@ -16,7 +16,6 @@ class RestaurantViewModel(application: Application) : AndroidViewModel(applicati
     val restaurantItems: LiveData<List<RestaurantItem>> = _restaurantItems
 
     init {
-
         loadRestaurantData()
     }
 
@@ -25,16 +24,19 @@ class RestaurantViewModel(application: Application) : AndroidViewModel(applicati
     }
 
     private fun loadRestaurantData() {
-
         try {
             val inputStream = getApplication<Application>().assets.open("restaurant_data.json")
+            Log.d("RestaurantViewModel", "File opened successfully.")
+
             val reader = InputStreamReader(inputStream)
             val listType = object : TypeToken<List<RestaurantItem>>() {}.type
-            val items = Gson().fromJson<List<RestaurantItem>>(reader, listType)
+            val items: List<RestaurantItem> = Gson().fromJson(reader, listType)
+
+            Log.d("RestaurantViewModel", "Parsed ${items.size} items.")
+
             _restaurantItems.postValue(items)
         } catch (e: Exception) {
             Log.e("RestaurantViewModel", "Error loading data", e)
         }
     }
-
 }

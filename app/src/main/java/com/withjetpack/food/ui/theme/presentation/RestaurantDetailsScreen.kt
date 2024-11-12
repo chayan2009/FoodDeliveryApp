@@ -13,6 +13,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.compose.rememberAsyncImagePainter
+import coil.compose.rememberImagePainter
+import com.withjetpack.food.R
 import com.withjetpack.food.model.RestaurantItem
 import com.withjetpack.food.viewmodel.RestaurantViewModel
 
@@ -47,7 +49,7 @@ fun RestaurantDetailsScreen(
             verticalArrangement = Arrangement.Top
         ) {
             Image(
-                painter = rememberAsyncImagePainter(restaurant.imageUrl),
+                painter = rememberAsyncImagePainter(R.mipmap.ic_default),  // URL string in restaurant.imageUrl
                 contentDescription = restaurant.name,
                 modifier = Modifier
                     .size(300.dp)

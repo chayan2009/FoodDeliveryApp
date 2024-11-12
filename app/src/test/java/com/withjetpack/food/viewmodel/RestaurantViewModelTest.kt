@@ -42,4 +42,5 @@ class RestaurantViewModelTest {
     @Test
     fun setMockData() {
     }
+
 }
