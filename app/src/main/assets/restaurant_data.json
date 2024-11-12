@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Pasta Carbonara",
+    "description": "Creamy pasta with pancetta, eggs, and parmesan.",
+    "price": 12.99,
+    "image_url": "https://www.w3schools.com/w3images/pasta.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Margherita Pizza",
+    "description": "Classic pizza with tomatoes, mozzarella, and basil.",
+    "price": 10.99,
+    "image_url": "https://www.w3schools.com/w3images/pizza.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Caesar Salad",
+    "description": "Crisp romaine lettuce, croutons, and Caesar dressing.",
+    "price": 7.99,
+    "image_url": "https://www.w3schools.com/w3images/salad.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Spaghetti Bolognese",
+    "description": "Pasta with a hearty beef and tomato sauce.",
+    "price": 14.99,
+    "image_url": "https://www.w3schools.com/w3images/spaghetti.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Grilled Salmon",
+    "description": "Fresh salmon fillet grilled to perfection.",
+    "price": 18.99,
+    "image_url": "https://www.w3schools.com/w3images/salmon.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Vegetable Stir Fry",
+    "description": "A mix of seasonal vegetables stir-fried with soy sauce.",
+    "price": 9.99,
+    "image_url": "https://www.w3schools.com/w3images/vegetable_stir_fry.jpg"
+  },
+  {
+    "id": 7,
+    "name": "BBQ Ribs",
+    "description": "Tender pork ribs glazed with BBQ sauce.",
+    "price": 15.99,
+    "image_url": "https://www.w3schools.com/w3images/ribs.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Chicken Alfredo",
+    "description": "Creamy Alfredo sauce with grilled chicken and pasta.",
+    "price": 13.99,
+    "image_url": "https://www.w3schools.com/w3images/chicken_alfredo.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Veggie Burger",
+    "description": "A healthy veggie patty with fresh toppings.",
+    "price": 8.99,
+    "image_url": "https://www.w3schools.com/w3images/veggie_burger.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Seafood Paella",
+    "description": "A traditional Spanish dish with seafood and rice.",
+    "price": 19.99,
+    "image_url": "https://www.w3schools.com/w3images/paella.jpg"
+  }
+]
